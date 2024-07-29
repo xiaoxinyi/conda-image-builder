@@ -62,9 +62,10 @@ jobs:
           image_name=`head name.txt` 
           new_image="$ALIYUN_REGISTRY/$ALIYUN_NAME_SPACE/$image_name"
           echo "docker build $new_image"
-          echo "exec docker buildx build --platform linux/amd64 -t $new_image -f Dockerfile ."
-          docker buildx build --platform linux/amd64 -t $new_image -f Dockerfile .
+          echo "exec docker build --platform linux/amd64 -t $new_image -f Dockerfile ."
+          docker build --platform linux/amd64 -t $new_image -f Dockerfile .
           echo "docker push $new_image"
+          docker images
           docker push $new_image
           
           echo "开始清理磁盘空间"
