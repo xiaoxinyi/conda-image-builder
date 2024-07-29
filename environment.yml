@@ -9,11 +9,8 @@ dependencies:
       - cmake
       - opencv-python==4.6.0.66
       - cython
-      - paddleocr==2.6.0
-      - paddlehub==2.2.0
       - fastapi==0.79.0
       - uvicorn
-      - zhon
       - pytest
       - jinja2
       - aiofiles
@@ -21,7 +18,6 @@ dependencies:
       - requests
       - gunicorn
       - protobuf==3.20.0
-      - chardet
       - numpy==1.23
       - Levenshtein
 prefix: /opt/conda/envs/py38

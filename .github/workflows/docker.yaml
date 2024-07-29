@@ -64,9 +64,12 @@ jobs:
           echo "docker build $new_image"
           echo "exec docker build --platform linux/amd64 -t $new_image -f Dockerfile ."
           docker build --platform linux/amd64 -t $new_image -f Dockerfile .
-          echo "docker push $new_image"
           docker images
-          docker push $new_image
+          new_image2 = "${new_image%%@*}"
+          echo "docker tag $new_image $new_image2"
+          docker tag $new_image $new_image2
+          echo "docker push $new_image2"
+          docker push $new_image2
           
           echo "开始清理磁盘空间"
           echo "=============================================================================="
