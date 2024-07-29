@@ -1,0 +1,27 @@
+name: py38
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - ipython
+  - pip
+  - pip:
+      - cmake
+      - opencv-python==4.6.0.66
+      - cython
+      - paddleocr==2.6.0
+      - paddlehub==2.2.0
+      - fastapi==0.79.0
+      - uvicorn
+      - zhon
+      - pytest
+      - jinja2
+      - aiofiles
+      - python-multipart
+      - requests
+      - gunicorn
+      - protobuf==3.20.0
+      - chardet
+      - numpy==1.23
+      - Levenshtein
+prefix: /opt/conda/envs/py38
