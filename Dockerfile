@@ -49,7 +49,7 @@ ENV PATH /opt/conda/bin:$PATH
 RUN mamba init zsh
 
 
-FROM builder2 as builder3
+FROM builder1 as builder2
 
 WORKDIR /workspace
 ADD environment.yml /environment.yml
