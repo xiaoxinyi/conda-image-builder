@@ -18,6 +18,6 @@ dependencies:
       - requests
       - gunicorn
       - protobuf==3.20.0
-      - numpy==1.23
-      - Levenshtein
+      - numpy==1.24
+      - pandas
 prefix: /opt/conda/envs/py38
