@@ -65,7 +65,7 @@ jobs:
           echo "exec docker build --platform linux/amd64 -t $new_image -f Dockerfile ."
           docker build --platform linux/amd64 -t $new_image -f Dockerfile .
           docker images
-          new_image2 = "${new_image%%@*}"
+          new_image2="${new_image%%@*}"
           echo "docker tag $new_image $new_image2"
           docker tag $new_image $new_image2
           echo "docker push $new_image2"
