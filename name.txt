@@ -1,1 +1,1 @@
-fastapi-ubuntu
+fastapi-ubuntu:latest
