@@ -1,1 +1,1 @@
-fastapi-ubuntu:latest
+conda-ubuntu:py38
