@@ -6,8 +6,8 @@ dependencies:
   - ipython
   - pip
   - pip:
-      - cmake
-      - opencv-python==4.6.0.66
+      #- cmake
+      #- opencv-python==4.6.0.66
       - cython
       - fastapi==0.79.0
       - uvicorn
@@ -16,8 +16,8 @@ dependencies:
       - aiofiles
       - python-multipart
       - requests
-      - gunicorn
-      - protobuf==3.20.0
-      - numpy==1.24
-      - pandas
+      #- gunicorn
+      #- protobuf==3.20.0
+      #- numpy==1.24
+      #- pandas
 prefix: /opt/conda/envs/py38
