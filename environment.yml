@@ -1,23 +1,24 @@
-name: py38
+name: py310
 channels:
   - defaults
 dependencies:
-  - python=3.8
+  - python=3.10
   - ipython
   - pip
   - pip:
       #- cmake
       #- opencv-python==4.6.0.66
       - cython
-      - fastapi==0.79.0
+      #- fastapi==0.79.0
       - uvicorn
       - pytest
       - jinja2
       - aiofiles
       - python-multipart
       - requests
+      - python-magic   
       #- gunicorn
       #- protobuf==3.20.0
       #- numpy==1.24
       #- pandas
-prefix: /opt/conda/envs/py38
+prefix: /opt/conda/envs/py310
