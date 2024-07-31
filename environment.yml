@@ -5,6 +5,7 @@ dependencies:
   - python=3.10
   - ipython
   - pip
+  - python-magic  
   - pip:
       #- cmake
       #- opencv-python==4.6.0.66
@@ -16,7 +17,6 @@ dependencies:
       - aiofiles
       - python-multipart
       - requests
-      - python-magic   
       #- gunicorn
       #- protobuf==3.20.0
       #- numpy==1.24
