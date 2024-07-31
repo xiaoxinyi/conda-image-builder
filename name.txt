@@ -1,1 +1,1 @@
-conda-ubuntu:py38
+conda-ubuntu:py310
