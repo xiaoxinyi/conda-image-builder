@@ -1,1 +1,1 @@
-pandasai:latest
+ubuntu-conda:py310
