@@ -1,4 +1,4 @@
-FROM SXKJ:32775/mambaforge:4.9.2-5
+FROM condaforge/mambaforge:4.9.2-5
 RUN /opt/conda/bin/pip install jupyterlab jupyterlab-language-pack-zh-CN kazoo==2.9.0
 RUN mamba install nodejs sparkmagic pyhive pandas nbconvert>=7 mistune>=2 -y
 # FROM condaforge/mambaforge:latest AS builder0
