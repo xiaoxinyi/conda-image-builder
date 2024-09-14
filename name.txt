@@ -1,1 +1,1 @@
-mambaforge:4.9.2-5
+openjdk:8-jdk-stretch

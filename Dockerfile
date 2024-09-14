@@ -1,6 +1,6 @@
-FROM condaforge/mambaforge:4.9.2-5
-RUN /opt/conda/bin/pip install jupyterlab jupyterlab-language-pack-zh-CN kazoo==2.9.0
-RUN mamba install nodejs sparkmagic pyhive pandas nbconvert>=7 mistune>=2 -y
+FROM openjdk:8-jdk-stretch
+RUN apt update && apt install telnet -y
+
 # FROM condaforge/mambaforge:latest AS builder0
 
 
