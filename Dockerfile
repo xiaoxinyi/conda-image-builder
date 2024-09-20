@@ -1,5 +1,4 @@
-FROM openjdk:8-jdk-stretch
-RUN apt update && apt install telnet -y
+FROM ubuntu:18.04
 
 # FROM condaforge/mambaforge:latest AS builder0
 
