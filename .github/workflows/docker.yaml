@@ -63,7 +63,7 @@ jobs:
           new_image="$ALIYUN_REGISTRY/$ALIYUN_NAME_SPACE/$image_name"
           echo "docker build $new_image"
           echo "exec docker build --platform linux/amd64 -t $new_image -f Dockerfile ."
-          docker build --platform linux/amd64 -t $new_image -f Dockerfile .
+          docker build --platform linux/arm64 -t $new_image -f Dockerfile .
           docker images
           new_image2="${new_image%%@*}"
           echo "docker tag $new_image $new_image2"
