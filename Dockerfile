@@ -1,4 +1,4 @@
-FROM ubuntu:18.04
+FROM --platform=linux/arm64 kitware/trame:py3.10-conda-ubuntu22.04
 
 # FROM condaforge/mambaforge:latest AS builder0
 
