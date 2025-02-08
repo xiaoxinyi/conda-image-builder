@@ -1,1 +1,1 @@
-ubuntu:18.04
+trame:py3.10-conda-ubuntu22.04
