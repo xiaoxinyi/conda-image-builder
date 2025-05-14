@@ -1,5 +1,6 @@
 FROM --platform=linux/arm64 kitware/trame:py3.10-conda-ubuntu22.04
-ADD requirements.txt /requirements.txt
+COPY requirements.txt /requirements.txt
+RUN ls -l /requirements.txt 
 RUN pip install -r /requirements.txt
 # FROM condaforge/mambaforge:latest AS builder0
 
