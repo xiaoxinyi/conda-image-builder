@@ -5,20 +5,6 @@ dependencies:
   - python=3.10
   - ipython
   - pip
-  - python-magic  
   - pip:
-      #- cmake
-      #- opencv-python==4.6.0.66
-      - cython
-      #- fastapi==0.79.0
-      - uvicorn
-      - pytest
-      - jinja2
-      - aiofiles
-      - python-multipart
-      - requests
-      #- gunicorn
-      #- protobuf==3.20.0
-      #- numpy==1.24
-      #- pandas
+    - -r requirements.txt
 prefix: /opt/conda/envs/py310
