@@ -1,4 +1,4 @@
-name: ocr310
+name: award310
 channels:
   - defaults
 dependencies:
@@ -7,4 +7,4 @@ dependencies:
   - pip
   - pip:
     - -r requirements.txt
-prefix: /opt/conda/envs/ocr310
+prefix: /opt/conda/envs/award310
