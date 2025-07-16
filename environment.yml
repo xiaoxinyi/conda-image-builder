@@ -1,4 +1,4 @@
-name: award310
+name: pdfextract310
 channels:
   - defaults
 dependencies:
@@ -7,4 +7,4 @@ dependencies:
   - pip
   - pip:
     - -r requirements.txt
-prefix: /opt/conda/envs/award310
+prefix: /opt/conda/envs/pdfextract310
