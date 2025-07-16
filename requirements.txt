@@ -280,7 +280,6 @@ typing-inspection==0.4.1
 tzdata==2025.2
 ultralytics==8.3.166
 ultralytics-thop==2.0.14
-unimernet==0.2.1
 urllib3==2.5.0
 uv==0.7.20
 uvicorn==0.35.0
