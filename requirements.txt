@@ -1,7 +1,6 @@
 accelerate==1.8.1
 aioboto3>=13.0.0
 aiocache==0.12.3
-aiobotocore>=2.16.0
 aiofiles==24.1.0
 aiohappyeyeballs==2.4.4
 aiohttp==3.11.10
@@ -31,8 +30,6 @@ beautifulsoup4==4.12.3
 billiard==4.2.1
 bleach==6.2.0
 blinker==1.9.0
-boto3==1.39.4
-botocore>=1.39.4
 braceexpand==0.1.7
 Brotli==1.1.0
 cachetools==5.5.2
