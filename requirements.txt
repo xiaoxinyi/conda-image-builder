@@ -256,7 +256,6 @@ soupsieve==2.5
 SQLAlchemy==1.4.9
 stack-data==0.2.0
 starlette==0.47.1
-streamlit==1.43.2
 stringzilla==3.12.5
 struct-eqtable==0.3.3
 sympy==1.14.0
