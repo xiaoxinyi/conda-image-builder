@@ -1,7 +1,7 @@
 accelerate==1.8.1
-aioboto3==13.2.0
+aioboto3>=13.0.0
 aiocache==0.12.3
-aiobotocore>=2.16.0
+aiobotocore>=2.0.0
 aiofiles==24.1.0
 aiohappyeyeballs==2.4.4
 aiohttp==3.11.10
