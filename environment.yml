@@ -7,4 +7,5 @@ dependencies:
   - pip
   - pip:
     - -r requirements.txt
+    - -i https://pypi.tuna.tsinghua.edu.cn/simple
 prefix: /opt/conda/envs/pdfextract310
