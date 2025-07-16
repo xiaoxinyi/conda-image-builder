@@ -2,6 +2,7 @@ FROM --platform=linux/arm64 kitware/trame:py3.10-conda-ubuntu22.04
 COPY requirements.txt requirements.txt
 COPY environment.yml environment.yml
 RUN conda env create -f environment.yml
+
 # FROM condaforge/mambaforge:latest AS builder0
 
 
